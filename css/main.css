@@ -1,0 +1,826 @@
+/* .container-fluid
+{
+    height: 100vh;
+    background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.bg-blac
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999999999999999999999;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    z-index: 9999999999999;
+}
+.back8
+{
+    
+    background: url(images/hero-bg.jpg);
+    background-size: cover;
+    
+    
+}
+.heading
+{
+    font-size: 400%;
+    font-weight: bolder;
+}
+.heading1
+{
+    font-size: 250%;
+    font-weight: bolder;
+}
+.underlinehome a
+{
+    position: relative;
+}
+.underlinehome a::after
+{
+    width: 40px;
+    height: 5px;
+    content:'' ;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 13%;
+}
+.line a
+{
+    color: #fff;
+}
+/* .border-bottom
+{
+    background-color: ;
+} */
+.anime, .anime1, .anime2, .anime3, .anime4, .anime5 
+{
+    position: relative;
+    overflow: hidden;
+
+   
+}
+.animation
+{
+    
+    position: absolute;
+    right: 80px;
+opacity: 1;
+transition: all ;
+transition-duration: 0.5s;
+}
+.animation1
+{
+    
+    position: absolute;
+    right: 107px;
+opacity: 1;
+transition: all ;
+transition-duration: 0.5s;
+}
+.animation2
+{
+    
+    position: absolute;
+    right: 75px;
+opacity: 1;
+transition: all ;
+transition-duration: 0.5s;
+}
+.animation3
+{
+    
+    position: absolute;
+    right: 80px;
+opacity: 1;
+transition: all ;
+transition-duration: 0.5s;
+}
+.animation4
+{
+    
+    position: absolute;
+    right: 135px;
+opacity: 1;
+transition: all ;
+transition-duration: 0.5s;
+}
+.animation5
+{
+    
+    position: absolute;
+    right: 105px;
+opacity: 1;
+transition: all ;
+transition-duration: 0.5s;
+}
+.anime:hover .animation
+{
+    transform: translateX(60px);
+    opacity: 1;
+}
+.anime1:hover .animation1
+{
+    transform: translateX(80px);
+    opacity: 1;
+}
+
+.anime2:hover .animation2
+{
+    transform: translateX(60px);
+    opacity: 1;
+}
+.anime3:hover .animation3
+{
+    transform: translateX(70px);
+    opacity: 1;
+}
+.anime4:hover .animation4
+{
+    transform: translateX(90px);
+    opacity: 1;
+}
+.anime5:hover .animation5
+{
+    transform: translateX(80px);
+    opacity: 1;
+}
+
+
+    /* animation-duration: 2s;
+    animation-name: hunda;
+    animation-iteration-count: 3;
+opacity: 1;
+transition: all 3s;
+}
+.animation:hover 
+{
+opacity: 1;
+}
+@keyframes hunda  {
+    
+    0%{
+           
+         left:0 ; width: 0;  }
+    
+    100%{    
+         left: 3px;width: 70px; }
+   
+          */
+
+
+
+
+
+
+.caption h2::after {
+    width: 100px;
+    height: 50px;
+    content: '|';
+    animation-name: try;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+.sectionone:hover i, .sectiontwo:hover i, .sectionthree:hover i, .sectionfour:hover i, .sectionfive:hover i, .sectionsix:hover i 
+{
+    background-color: #0099CC;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.sectionone:hover i
+{
+    border-color: bisque;
+}
+.hov:hover button
+{
+    border-color: rgba(255, 255, 255, 0.5) !important;
+
+    background-color: #0099CC;
+}
+
+.touch1:hover, .touch2:hover, .touch3:hover, .touch4:hover
+
+
+
+{
+    border-color: rgba(255, 255, 255, 0.5) !important;
+
+    background-color: #0099CC;
+
+}
+.parent
+{
+    position: relative;
+}
+.parent h5::after
+{
+    width: 80px;
+    height: 5px;
+    content:'' ;
+    border-bottom: 3px solid #0099CC;
+    position: absolute;
+    bottom: -10px;
+    left: 47%;
+}
+.parent6
+{
+    position: relative;
+}
+.parent6 h5::after
+{
+    width: 70px;
+    height: 28px;
+    padding-top: 2px;
+    content:'Travel' ;
+    text-align: center;
+    border: 3px solid #0099CC;
+    border-radius: 3px;
+    background-color: #0099CC;
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: 127px;
+    left: 38%;
+    
+}
+.parent7
+{
+    position: relative;
+}
+.parent7 h5::after
+{
+    width: 100px;
+    height: 28px;
+    padding-top: 3px;
+    content:'WEB DESIGN' ;
+    text-align: center;
+    border: 3px solid #0099CC;
+    border-radius: 3px;
+    background-color: #0099CC;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 127px;
+    left: 38%;
+}
+.parent8
+{
+    position: relative;
+}
+.parent8 h5::after
+{
+    width: 100px;
+    height: 28px;
+    padding-top: 3px;
+    content:'WEB DESIGN' ;
+    text-align: center;
+    border: 3px solid #0099CC;
+    border-radius: 3px;
+    background-color: #0099CC;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 127px;
+    left: 38%;
+}
+.parent1
+{
+    position: relative;
+}
+.parent1 h5::after
+{
+    width: 80px;
+    height: 5px;
+    content:'' ;
+    border-bottom: 3px solid #0099CC;
+    position: absolute;
+    bottom: 13px;
+    left: 47%;
+}
+.parent2
+{
+    position: relative;
+}
+.parent2 p::after
+{
+    width: 80px;
+    height: 5px;
+    content:'' ;
+    border-bottom: 3px solid #0099CC;
+    position: absolute;
+    bottom: -13px;
+    left: 47%;
+}
+.parent3
+{
+    position: relative;
+}
+.parent3 h2::after
+{
+    width: 100px;
+    height: 5px;
+    content:'' ;
+    border-bottom: 3px solid #0099CC;
+    position: absolute;
+    top: 45px;
+    left: 3%;
+}
+.parent4
+{
+    position: relative;
+}
+.parent4 h2::after
+{
+    width: 100px;
+    height: 5px;
+    content:'' ;
+    border-bottom: 3px solid #0099CC;
+    position: absolute;
+    top: 45px;
+    left: 3%;
+}
+.underline2 h2
+{
+    position: relative;
+}
+.underline2 h2::after
+{
+    width: 100px;
+    height: 5px;
+    content:'' ;
+    border-bottom: 4px solid #0099CC;
+    position: absolute;
+    top: 70px;
+    right:85%;
+}
+.touch:hover img, .touchone:hover img, .touchtwo:hover img, .touchthree:hover img, .touchfour:hover img, .touchfive:hover img
+
+
+
+
+
+{
+    transform: scale(1.1);
+    overflow: hidden;
+
+}
+.touch, .touchone, .touchtwo, .touchthree, .touchfour, .touchfive
+{
+    transition: all 7s;
+    overflow: hidden;
+
+}
+
+@keyframes try {
+    1% {
+        content: 'p|';
+    }
+   
+
+    2% {
+        content: 'ph|';
+    }
+
+    3% {
+        content: 'pho|';
+    }
+
+   4% {
+        content: 'phot|';
+    }
+
+    5% {
+        content: 'photo|';
+    }
+
+    6% {
+        content: 'photog|';
+    }
+
+    7% {
+        content: 'photogr|';
+    }
+
+    8% {
+        content: 'photogra|';
+    }
+
+    9% {
+        content: 'photograp|';
+    }
+
+    10% {
+        content: 'photograph|';
+    }
+
+    11% {
+        content: 'photographe|';
+    }
+
+    12% {
+        content: 'photographer.|';
+    }
+
+    13% {
+        content: 'photographe|';
+    }
+
+    14% {
+        content: 'photograph|';
+    }
+
+    15% {
+        content: 'photograp|';
+    }
+
+    16% {
+        content: 'photogra|';
+    }
+
+    17% {
+        content: 'photogr|';
+    }
+
+    18% {
+        content: 'photog|';
+    }
+
+    19% {
+        content: 'photo|';
+    }
+
+    20% {
+        content: 'phot|';
+    }
+
+    21% {
+        content: 'pho|';
+    }
+
+    22% {
+        content: 'ph|';
+    }
+
+    23% {
+        content: 'p|';
+    }
+
+    24% {
+        content: '|';
+    }
+    25% {
+        content: 'D|';
+    }
+
+    26% {
+        content: 'De|';
+    }
+
+    27% {
+        content: 'Des|';
+    }
+
+    28% {
+        content: 'Desi|';
+    }
+
+    29% {
+        content: 'Desig|';
+    }
+
+    30% {
+        content: 'Design|';
+    }
+
+    31% {
+        content: 'Designe|';
+    }
+
+    32% {
+        content: 'Designer.|';
+    }
+
+    33% {
+        content: 'Designe|';
+    }
+
+    34% {
+        content: 'Design|';
+    }
+
+    35% {
+        content: 'Desig|';
+    }
+
+    36% {
+        content: ' Desi|';
+    }
+
+    37% {
+        content: 'Des|';
+    }
+
+    38% {
+        content: 'De|';
+    }
+
+    39% {
+        content: 'Dev|';
+    }
+    40% {
+        content: 'Deve|';
+    }
+    41% {
+        content: 'Devel|';
+    }
+    42% {
+        content: 'Develo|';
+    }
+    43% {
+        content: 'Develop|';
+    }
+    44% {
+        content: 'Develope|';
+    }
+    45% {
+        content: 'Developer|';
+    }
+    46% {
+        content: 'Develope|';
+    }
+    47% {
+        content: 'Develop|';
+    }
+    48% {
+        content: 'Develo|';
+    }
+    49% {
+        content: 'Devel|';
+    }
+    50% {
+        content: 'Deve|';
+    }
+    52% {
+        content: 'Dev|';
+    }
+    54% {
+        content: 'De|';
+    }
+    56% {
+        content: 'D|';
+    }
+    58% {
+        content: '|';
+    }
+
+   
+
+    60% {
+        content: 'f|';
+    }
+
+    62% {
+        content: 'fr|';
+    }
+
+    64% {
+        content: 'fre|';
+    }
+
+    66% {
+        content: 'free|';
+    }
+
+    68% {
+        content: 'freel|';
+    }
+
+    70% {
+        content: 'freela|';
+    }
+
+    72% {
+        content: 'freelan|';
+    }
+
+    74% {
+        content: 'freelance|';
+    }
+
+    76% {
+        content: 'freelancer.|';
+    }
+
+    78% {
+        content: 'freelance|';
+    }
+
+    80% {
+        content: 'freelanc|';
+    }
+
+    83% {
+        content: 'freelan|';
+    }
+
+    86% {
+        content: 'freela|';
+    }
+
+    89% {
+        content: 'freel|';
+    }
+
+    92% {
+        content: 'free|';
+    }
+
+    95% {
+        content: 'fre|';
+    }
+
+    98% {
+        content: 'fr|';
+    }
+
+    100% {
+        content: 'f|';
+    }
+
+   
+
+    
+
+    
+}
+.w-70
+{
+    width: 70%;
+}
+.w-40
+{
+    width: 40%;
+}
+.w-80
+{
+    width: 80%;
+}
+.w-10
+{
+    width: 10%;
+}
+.w-15
+{
+    width: 15%;
+}
+.w-60
+{
+    width: 60%;
+}
+.w-30
+{
+    width: 30%;
+}
+.w-90
+{
+    width: 90%;
+}
+.w-1
+{
+    width: 0.5px;
+}
+.w-85
+{
+    width: 85%;
+}
+.w-95
+{
+    width: 95%;
+}
+
+.w-130
+{
+    width: 130%;
+}
+.h-40
+{
+    height: 40%;
+}
+.h-60
+{
+    height: 60%;
+}
+.h-5
+{
+    height: 10px;
+}
+.h-80
+{
+    height: 80%;
+}
+.h-70
+{
+    height: 70%;
+}
+.h-13
+{
+    height: 13%;
+}
+.h-85
+{
+    height: 85%;
+}
+.fs-9
+{
+    font-size: 10px;
+}
+.fs-8
+{
+    font-size: 12px;
+}
+.fs-7
+{
+    font-size: 14px;
+}
+.list
+{
+    line-height: 45px;
+}
+.back
+{
+z-index: 1;  
+    background-image: url(images/post-3.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.layer
+{
+    background-color: rgba(0, 0, 255, 0.6);
+    
+    
+}
+.layer3
+{
+    background-color: rgba(0, 0, 255, 0.6);
+    
+    
+}
+.last
+{
+    background-color: rgba(0, 0, 255, 1);
+
+}
+.space
+{
+    line-height: 30px;
+    font-size: 150%;
+}
+.h-15
+{
+    height: 15%;
+}
+
+.fs-size
+{
+    font-size: larger;
+}
+.overlay
+{
+    
+background-image: url(images/overlay-bg.jpg);
+background-size: cover;
+background-attachment: fixed;
+
+/* position: relative; */
+}
+.lay
+{
+    background-color:rgba(100,155,255,0.5);
+
+}
+.back1
+{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.parent6:hover h5, .parent7:hover h5, .parent8:hover h5, .parent11:hover p, .parent12:hover p, .parent13:hover p
+
+
+{
+    color: #0099CC;
+}
+.parent6, .parent7, .parent8, .parent11, .parent12, .parent13
+{
+    transition: all 3s;
+}
